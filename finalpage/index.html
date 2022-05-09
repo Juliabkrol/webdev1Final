@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinalPage</title>
+</head>
+</html>
+<style>
+    * {
+  box-sizing: border-box;
+}
+    body {
+  background-image: url('pinkbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+
+}
+  @font-face {
+   font-family: AmaticSC;
+   src: url(AmaticSC-Regular.ttf);
+  }
+  .center {
+   
+   font-size: 25px;
+   color: rgb(255, 0, 191);
+   font-family: AmaticSC;
+  }
+  h2 {
+      font-size: 20px;
+      font-family: AmaticSC;
+  }
+   a:link {
+  color: rgb(167, 23, 81);
+  background-color: transparent;
+  text-decoration: none;
+ 
+}
+a:visited {
+  color: rgb(199, 20, 95);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 0, 191);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#myselfie {
+    position: absolute;
+    right: 150px;
+    top: 330px;
+}
+#Elena {
+    position: absolute;
+/* offset properties */
+left: 385px;
+top: 20px;
+}
+#dancingbarb {
+    position: absolute;
+/* offset properties */
+right: 400px;
+top: 10px;
+}
+#pp {
+    position: absolute;
+    left: 350px;
+    top: 350px;
+}
+#pegusus {
+    position:absolute;
+    left: 730px;
+    top: 470px
+
+}
+#prem {
+    position: absolute;
+    top: 920px;
+    left: 60px;
+}
+#n { 
+    position: absolute;
+    top: 920px;
+    left: 500px;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  padding-right: 20px;
+  margin-top: 20px;
+  font-family: AmaticSC;
+  font-size: 30px;
+}
+
+
+
+/* Fake image */
+.fakeimg {
+  background-color: rgb(255, 62, 123);
+  width: 100%;
+  padding: 20px;
+  font-family: AmaticSC;
+ 
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(255, 176, 195);
+  padding: 20px;
+  padding-top:  0px;
+  margin-top: 30px;
+  font-family: AmaticSC;
+  font-size: 20px;
+}
+.about {
+    padding-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(255, 176, 195);;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  color:rgb(223, 109, 154)
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: rgb(244,255,255);
+background: linear-gradient(0deg, rgba(244,255,255,1) 0%, rgba(33,199,219,1) 100%);
+font-family: AmaticSC;
+font-size: 20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 62, 123);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+color:rgb(0, 187, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: AmaticSC;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(255, 164, 214);
+}
+</style>
+<header>
+    <div class="header" >
+        <h1>Old Barbie Movies</h1>
+        <h2>the girls that get it, get it<h2>
+        <h2>the girls that dont, dont</h2>
+      </div>
+      
+      <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Characters</a>
+        <a href="#">Vibes</a>
+        
+      </div>
+      
+    <div class="img">
+        <img id="Elena" src="Elena.gif" alt="Elena" height="190" width="190">
+        <img id="dancingbarb" src="dancingbarb.gif" alt="dancingbarb" height="200" width="200">
+        <img id="myselfie" src="myselfie.jpg" alt="myselfie" height="200">
+        <img id="pp" src="pp.jpg" alt="pp" height="250px">
+        <img id="pegusus" src="pegusus.jpg" alt="pegusus" height=" 250px">
+        <img id="prem" src="prem.jpg" alt="prem" height="200px">
+        <img id="n" src="n.jpg" alt="n" height="200px"
+    
+    </div>
+
+
+   </header>
+   <body>
+    <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h1>My All Time Top 5</h1>
+            <h5>If you disagree, I don't care</h5>
+            <div class="fimg" style="height: 0px;"></div>
+            <p>1. Barbie as the Princess and The Pauper (2004)</p>
+            <p>2. Barbie and The Magic of Pegasus (2005)</p>
+            <p>3. Barbie In the Nutcracker (2001)</p>
+            <p>4. Barbie Fairytopia (2005)</p>
+            <p>5. Barbie in The 12 Dancing Princesses (2006)</p>
+            <p>I love every single one of the films, and they are all perfect in their own way, these are just my main 5.
+            </p>
+          </div>
+          <div class="card">
+            <h1>Best Barbie Villian</h1>
+            <h2>You already know who it is</h2>
+            <div class="fimg" style="height:200px;"></div>
+            <h2>Preminger</h2>
+            <p>The main antagonist from Barbie as The Princess and The Pauper is the best Barbie Villian of all time. Voiced by Martin Short, he is the perfect barbie movie villian. Not only does he have style and personality, he also happens to have the best song. #howcouldIrefuse #sticktoyourbooks #schoolboy </p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+              <div class="about">
+            <h2>About Me</h2>
+            <div class="fimg" style="height:100px;"></div>
+            <p>Hi there!</p>
+            <p>My name is Julia, I'm a college student in Chicago. 
+                I've loved barbie since I can remeber. This page is a detication to my love for the era of old Barbie films. 
+            </p>
+          </div>
+          <div class="card">
+            <h3>Popular Post</h3>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+          </div>
+          <div class="card">
+            <h3>Follow Me</h3>
+            <p>Some text..</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+
+      </div>
+      </body>
+  
