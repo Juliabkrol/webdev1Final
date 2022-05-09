@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinalPage</title>
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: AmaticSC;
+  }
+  
+  /* Style the header */
+  .header {
+    background-image: url('pinkbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: AmaticSC;
+  }
+  h2 {
+    font-family: AmaticSC;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+    font-family: AmaticSC;
+    font-size: 40px;
+  }
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: AmaticSC;
+  }
+  
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px)
+    .column {
+      width: 100%;
+    }
+    body {
+  background-image: url('pinkbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  font-family: AmaticSC;
+}
+#tika {
+    position:absolute;
+    left: 100px;
+    top: 250px;
+}
+#willa {
+    position: absolute;
+    left: 650px;
+    top: 250px;
+}
+#rowena {
+    position: absolute;
+    right: 100px;
+    top: 250px;
+
+}
+@font-face {
+   font-family: AmaticSC;
+   src: url(AmaticSC-Regular.ttf);
+  }
+ 
+  
+  </style>
+</style>
+</html>
+
+  </head>
+  <body>
+  
+  <div class="header">
+    <h2>Most Hated Characters</h2>
+  </div>
+  
+  <div class="row">
+    <div class="column" style="background: rgb(255,239,250);
+background: linear-gradient(0deg, rgba(255,239,250,1) 0%, rgba(255,87,161,1) 100%);">Tika</div>
+    <div class="column" style="background: rgb(255,87,161);
+background: linear-gradient(0deg, rgba(255,87,161,1) 0%, rgba(255,239,250,1) 100%);">Willa</div>
+    <div class="column" style="background: rgb(255,239,250);
+background: linear-gradient(0deg, rgba(255,239,250,1) 0%, rgba(255,87,161,1) 100%);">Rowena</div>
+    </div>
+  </div>
+  
+  
+  </body>
+  </html>
+ 
+   
+
+</style>
+<body>
+    <img id="tika" src="Tika.webp" alt="tika" height="300px">
+    <img id="willa" src="willa.png" alt="willa" height="300px">
+    <img id="rowena" src="rowena.webp" alt="rowena" height="300px">
+</body>
